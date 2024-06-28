@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://IntelligentSystemsLaboratory.github.io/nwoap_workshop/about.html</loc>
-    <lastmod>2024-06-28T09:39:11.016Z</lastmod>
+    <loc>https://IntelligentSystemsLaboratory.github.io/nwoap_workshop/introduction.html</loc>
+    <lastmod>2024-06-28T10:06:22.687Z</lastmod>
+  </url>
+  <url>
+    <loc>https://IntelligentSystemsLaboratory.github.io/nwoap_workshop/slides-intro-why-how.html</loc>
+    <lastmod>2024-06-28T10:06:22.687Z</lastmod>
   </url>
   <url>
     <loc>https://IntelligentSystemsLaboratory.github.io/nwoap_workshop/index.html</loc>
-    <lastmod>2024-06-28T09:39:11.016Z</lastmod>
+    <lastmod>2024-06-28T10:06:22.687Z</lastmod>
+  </url>
+  <url>
+    <loc>https://IntelligentSystemsLaboratory.github.io/nwoap_workshop/about.html</loc>
+    <lastmod>2024-06-28T10:06:22.687Z</lastmod>
   </url>
 </urlset>
