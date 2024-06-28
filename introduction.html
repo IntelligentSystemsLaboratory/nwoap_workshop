@@ -67,6 +67,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -162,12 +165,72 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="why-do-we-need-new-ways" class="level1">
 <h1>Why do we need new ways?</h1>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{ init : { "flowchart" : { "curve" : "stepBefore" }}}%%
+
+flowchart LR
+  
+    dummy1[ ]:::empty -.-&gt; I1
+    dummy1 -.-&gt; I2
+    dummy1 -.-&gt; I3
+    dummy1 -.-&gt; I4
+    I1("Text + Figures + \n Code + ..."):::input --&gt; O1["Published \n Paper \n (PDF)"]
+    I2("Text + Figures + \n Code + ..."):::input --&gt; O2["Presentation \n Slides \n (PPTX/PDF)"]
+    I3("Text + Figures + \n Code + ..."):::input --&gt; O3["Poster \n (PPTX/PDF)"]
+    I4("Text + Figures + \n Code + ..."):::input --&gt; O4["Computational \n Notebook \n (Colab)"]
+    style O1 fill:#fca
+    style O2 fill:#ffb
+    style O3 fill:#f99
+    style O4 fill:#bfb
+    classDef empty width:0px,height:0px,fill:#000;
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
 <section id="what-are-possible-solutions" class="level1">
 <h1>What are possible solutions?</h1>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{ init : { "flowchart" : { "curve" : "stepBefore" }}}%%
+
+flowchart LR
+    I1("Text + Figures + \n Code + ..."):::input --- dummy2( ):::empty
+    dummy2 --&gt; O1["Published \n Paper \n (PDF)"]
+    dummy2 --&gt; O2["Presentation \n Slides \n (PPTX/PDF)"]
+    dummy2 --&gt; O3["Poster \n (PPTX/PDF)"]
+    dummy2 --&gt; O4["Computational \n Notebook \n (Colab)"]
+    style O1 fill:#fca
+    style O2 fill:#ffb
+    style O3 fill:#f99
+    style O4 fill:#bfb
+    classDef empty width:0px,height:0px,fill:#000;
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
 <section id="existing-technologies" class="level1">
 <h1>Existing technologies</h1>
+<ul>
+<li>Jupyter Book</li>
+<li>Quarto</li>
+<li>R Markdown</li>
+<li>Bookdown</li>
+<li>D2L book</li>
+<li>Sphinx</li>
+</ul>
 </section>
 <section id="in-this-workshop" class="level1">
 <h1>In this workshop</h1>
