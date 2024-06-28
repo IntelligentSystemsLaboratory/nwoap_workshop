@@ -10,11 +10,15 @@ technologies and tools to facilitate the authoring and publishing process.
 ## Workshop organisers
 
 ::: {layout-nrow=1}
-![Miquel Perello Nieto](images/miquel.jpg){fig-align="left"}
+![Miquel Perello Nieto](images/miquel.jpg){fig-align="left" width=150px
+height=200px}
 
-![Daladier Sampaio Neto](images/daladier.jpeg){fig-align="left"}
+![Daladier Sampaio Neto](images/daladier.jpeg){fig-align="left"  width=150px
+height=200px}
 
-![Roussel Desmond Nzoyem](images/roussel.jpg){fig-align="left"}
+![Roussel Desmond Nzoyem](images/roussel.jpg){fig-align="left" width=150px
+height=200px}
 
-![Peter Flach](images/peter.jpg){fig-align="left"}
+![Peter Flach](images/peter.jpg){fig-align="left" width=150px
+height=200px}
 :::
