@@ -20,7 +20,7 @@ format:
     output-file: slides-intro-why-how.html
 ---
 
-# Why new ways?
+# Why new ways of publishing?
 
 ## Lots of specialised tools
 
@@ -30,7 +30,7 @@ format:
 - **Publication systems**: Microsoft Word, pdfLaTeX, XeLaTeX, RStudio, ...
 - Each with **one output** format in mind (e.g., device, size, color, ...)
 
-## Publication workflow
+## Common publication workflow
 
 Workflow to create one type of publication
 
@@ -99,7 +99,7 @@ flowchart LR
 
 ## A new publication paradigm
 
-Version controlled and in one location
+Version controlled and in a single location
 
 ```{mermaid}
 %%{ init : { "flowchart" : { "curve" : "stepBefore" }}}%%
@@ -119,12 +119,15 @@ flowchart LR
 
 ## Existing technologies
 
-- Jupyter Book
-- Quarto
-- R Markdown
-- Bookdown
-- D2L book
-- Sphinx 
+- **Authoring tools**: Visual Studio + Quarto, Jupyter Lab + Jupyter Book,
+  Posit Workbench, ...
+- **Standard authoring formats**: LaTeX, Markdown, MyST Markdown,
+  reStructuredText, ...
+- **Storage solutions**: GitHub, BitBucket, 
+- **Publication systems**: Jupyter Book, Quarto, Bookdown, D2L book, Sphinx, R
+  Markdown
+- **Online collaboration**: team collaboration networks, project management
+  tools, online meeting tools, 
 
 # What next?
 
