@@ -1,6 +1,6 @@
 ---
 title: Why and How to publish in the 21st century?
-subtitle: <a href="slides-intro-why-how.html" target="_blank">
+subtitle: <a href="slides-intro-why-how.html" target="_blank"></a>
 author: 
   - name:
       given: Miquel
@@ -20,20 +20,36 @@ format:
     output-file: slides-intro-why-how.html
 ---
 
-# Why do we need new ways?
+# Why new ways?
 
 ## Lots of specialised options
 
-- **Authoring file formats**:
-    - Microsoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, ...
-- **Authoring tools**:
-    - Overleaf, Microsoft Office,  and other text editors.
-- **Storage**:
-    - Overleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, ...
-- **Publication systems**:
-    - Microsoft Word, pdfLaTeX, XeLaTeX, RStudio, ...
+- **Authoring file formats**: Microsoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, ...
+- **Authoring tools**: Overleaf, Microsoft Office,  and other text editors.
+- **Storage**: Overleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, ...
+- **Publication systems**: Microsoft Word, pdfLaTeX, XeLaTeX, RStudio, ...
+- Each with **one output** format in mind (e.g., device, size, color, ...)
 
 ## Publication workflow
+
+```{mermaid}
+flowchart LR
+  
+    I1("Source code") & I3("Analysis") --> M1["Storage 1"]
+    M1 --> I3
+    I3 --> M2
+    I3 --> I2
+    I4["Other sources"] --> I2
+    I2("Figures") --> M2["Storage 2"]
+    M1 -.-> MS["Common storage 1"]
+    M2 -.-> MS
+    MS --> A1["Authoring tool"]
+    A1 --> MS
+    MS --> P1["Publication system"]
+    P1 --> O1["Output format"]
+```
+
+## Duplication and scatter of files
 
 ```{mermaid}
 %%{ init : { "flowchart" : { "curve" : "stepBefore" }}}%%
