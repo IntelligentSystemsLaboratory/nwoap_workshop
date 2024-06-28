@@ -18,6 +18,8 @@ format:
   html: default
   revealjs:
     output-file: slides-intro-why-how.html
+    width: 960
+    height: 700
 ---
 
 # Why new ways of publishing?
