@@ -22,9 +22,53 @@ format:
 
 # Why do we need new ways?
 
+```{mermaid}
+%%{ init : { "flowchart" : { "curve" : "stepBefore" }}}%%
+
+flowchart LR
+  
+    dummy1[ ]:::empty -.-> I1
+    dummy1 -.-> I2
+    dummy1 -.-> I3
+    dummy1 -.-> I4
+    I1("Text + Figures + \n Code + ..."):::input --> O1["Published \n Paper \n (PDF)"]
+    I2("Text + Figures + \n Code + ..."):::input --> O2["Presentation \n Slides \n (PPTX/PDF)"]
+    I3("Text + Figures + \n Code + ..."):::input --> O3["Poster \n (PPTX/PDF)"]
+    I4("Text + Figures + \n Code + ..."):::input --> O4["Computational \n Notebook \n (Colab)"]
+    style O1 fill:#fca
+    style O2 fill:#ffb
+    style O3 fill:#f99
+    style O4 fill:#bfb
+    classDef empty width:0px,height:0px,fill:#000;
+```
+
 # What are possible solutions?
 
+```{mermaid}
+%%{ init : { "flowchart" : { "curve" : "stepBefore" }}}%%
+
+flowchart LR
+    I1("Text + Figures + \n Code + ..."):::input --- dummy2( ):::empty
+    dummy2 --> O1["Published \n Paper \n (PDF)"]
+    dummy2 --> O2["Presentation \n Slides \n (PPTX/PDF)"]
+    dummy2 --> O3["Poster \n (PPTX/PDF)"]
+    dummy2 --> O4["Computational \n Notebook \n (Colab)"]
+    style O1 fill:#fca
+    style O2 fill:#ffb
+    style O3 fill:#f99
+    style O4 fill:#bfb
+    classDef empty width:0px,height:0px,fill:#000;
+```
+
+
 # Existing technologies
+
+- Jupyter Book
+- Quarto
+- R Markdown
+- Bookdown
+- D2L book
+- Sphinx 
 
 # In this workshop
 
