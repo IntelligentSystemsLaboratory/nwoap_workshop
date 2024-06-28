@@ -22,7 +22,7 @@ format:
 
 # Why new ways?
 
-## Lots of specialised options
+## Lots of specialised tools
 
 - **Authoring file formats**: Microsoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, ...
 - **Authoring tools**: Overleaf, Microsoft Office,  and other text editors.
@@ -31,6 +31,8 @@ format:
 - Each with **one output** format in mind (e.g., device, size, color, ...)
 
 ## Publication workflow
+
+Workflow to create one type of publication
 
 ```{mermaid}
 flowchart LR
@@ -46,7 +48,29 @@ flowchart LR
     MS --> A1["Authoring tool"]
     A1 --> MS
     MS --> P1["Publication system"]
-    P1 --> O1["Output format"]
+    P1 --> O1["Output 1"]
+    style MS fill:#fca
+    style O1 fill:#faa
+```
+
+::: {.content-visible when-format="revealjs"}
+. . .
+:::
+
+Workflow to adapt and produce other types of publications
+
+```{mermaid}
+flowchart LR
+  
+    MS["Common storage 1"] --> M2["Common storage 2"]
+    MS --> I2("Figures")
+    I2 --> M2
+    M2 --> A1["Authoring tool"]
+    A1 --> M2
+    M2 --> P1["Publication system 2"]
+    P1 --> O1["Output 2"]
+    style MS fill:#fca
+    style O1 fill:#faa
 ```
 
 ## Duplication and scatter of files
@@ -75,6 +99,8 @@ flowchart LR
 
 ## A new publication paradigm
 
+Version controlled and in one location
+
 ```{mermaid}
 %%{ init : { "flowchart" : { "curve" : "stepBefore" }}}%%
 
@@ -91,8 +117,7 @@ flowchart LR
     classDef empty width:0px,height:0px,fill:#000;
 ```
 
-
-# Existing technologies
+## Existing technologies
 
 - Jupyter Book
 - Quarto
@@ -101,11 +126,47 @@ flowchart LR
 - D2L book
 - Sphinx 
 
+# What next?
+
+## We are not there yet
+
+- Current multipurpose publishing systems are under development
+- Using them may be more difficult than more established methods
+- Lack of stability and missing functionalities 
+- Lack of standards
+
+## New paradigms
+
+- Storage in one or multiple locations by types of files
+- A composition toolkit to mix 
+
+```{mermaid}
+%%{ init : { "flowchart" : { "curve" : "stepBefore" }}}%%
+
+flowchart LR
+    I1("<center>Text</center>"):::input --- dummy1( ):::empty
+    I2("Figures"):::input --- dummy1
+    I3(Code):::input --- dummy1
+    I4(...):::input --- dummy1
+    dummy1 --> C:::foo
+    C{{"Composition"}} --- dummy2( ):::empty
+    dummy2 --> O1["Published \n Paper \n (PDF)"]
+    style C fill:#f9f
+    dummy2 --> O2["Presentation \n Slides \n (PPTX/PDF)"]
+    dummy2 --> O3["Poster \n (PPTX/PDF)"]
+    dummy2 --> O4["Computational \n Notebook \n (Colab)"]
+    style O1 fill:#fca
+    style O2 fill:#ffb
+    style O3 fill:#f99
+    style O4 fill:#bfb
+    classDef empty width:0px,height:0px,fill:#000;
+```
+
 # In this workshop {.smaller}
 
 - 14:00 – 14:30 Introduction 
     - MPN Why and How to publish in the 21st Century
-    - DDSN Technologies, formats, 
+    - DDSN Technologies and use cases
 - 14:30 – 15:00 Use cases 
     - PF Reveal.js examples
     - DDSN IAI Hub
