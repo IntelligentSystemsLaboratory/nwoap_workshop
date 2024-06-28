@@ -1,5 +1,38 @@
 ---
 title: "New Ways of Academic Publishing Workshop"
+author: 
+  - name:
+      given: Miquel
+      family: Perello Nieto
+    orcid: 0000-0001-8925-424X
+    email: miquel.perellonieto@bristol.ac.uk
+    affiliations:
+      - name: University of Bristol
+        city: Bristol
+        country: United Kingdom
+        postal-code: BS8 1QU
+  - name: Daladier Sampaio Neto
+    email: daladier.sampaioneto@bristol.ac.uk
+    affiliations:
+      - name: University of Bristol
+        city: Bristol
+        country: United Kingdom
+        postal-code: BS8 1QU
+  - name: Roussel Desmond Nzoyem
+    email: rd.nzoyemngueguin@bristol.ac.uk
+    affiliations:
+      - name: University of Bristol
+        city: Bristol
+        country: United Kingdom
+        postal-code: BS8 1QU
+  - name: Peter Flach
+    orcid: 0000-0001-6857-5810
+    email: peter.flach@bristol.ac.uk
+    affiliations:
+      - name: University of Bristol
+        city: Bristol
+        country: United Kingdom
+        postal-code: BS8 1QU
 ---
 
 The distribution of academic research and teaching material has been based on books, static documents and slide presentations. However, the widespread adoption of electronic devices and the change to hybrid teaching are accelerating the creation of cross-platform content. Blogs, videos, software and other dynamic content are becoming the norm for better teaching and distribution of ideas. In this half-day workshop, we will explore many tools that can be used to facilitate the visibility of your own ideas and research outcomes. We will highlight some use cases of technologies, and spark discussions around best practices to simplify the publication workflow and maximization of its outreach. 
