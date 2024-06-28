@@ -1,1 +1,1 @@
-Sitemap: https://IntelligentSystemsLaboratory.github.io/nwoap_workshop/sitemap.xml
+Sitemap: https://intelligentsystemslaboratory.github.io/nwoap_workshop/sitemap.xml
