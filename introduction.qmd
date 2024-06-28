@@ -22,6 +22,19 @@ format:
 
 # Why do we need new ways?
 
+## Lots of specialised options
+
+- **Authoring file formats**:
+    - Microsoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, ...
+- **Authoring tools**:
+    - Overleaf, Microsoft Office,  and other text editors.
+- **Storage**:
+    - Overleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, ...
+- **Publication systems**:
+    - Microsoft Word, pdfLaTeX, XeLaTeX, RStudio, ...
+
+## Publication workflow
+
 ```{mermaid}
 %%{ init : { "flowchart" : { "curve" : "stepBefore" }}}%%
 
@@ -43,6 +56,8 @@ flowchart LR
 ```
 
 # What are possible solutions?
+
+## A new publication paradigm
 
 ```{mermaid}
 %%{ init : { "flowchart" : { "curve" : "stepBefore" }}}%%
