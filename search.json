@@ -4,7 +4,7 @@
     "href": "introduction.html",
     "title": "Why and How to publish in the 21st century?",
     "section": "",
-    "text": "Authoring file formats:\n\nMicrosoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …\n\nAuthoring tools:\n\nOverleaf, Microsoft Office, and other text editors.\n\nStorage:\n\nOverleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, …\n\nPublication systems:\n\nMicrosoft Word, pdfLaTeX, XeLaTeX, RStudio, …\n\n\n\n\n\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n  \n    dummy1[ ]:::empty -.-&gt; I1\n    dummy1 -.-&gt; I2\n    dummy1 -.-&gt; I3\n    dummy1 -.-&gt; I4\n    I1(\"Text + Figures + \\n Code + ...\"):::input --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    I2(\"Text + Figures + \\n Code + ...\"):::input --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    I3(\"Text + Figures + \\n Code + ...\"):::input --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    I4(\"Text + Figures + \\n Code + ...\"):::input --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;",
+    "text": "Authoring file formats: Microsoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …\nAuthoring tools: Overleaf, Microsoft Office, and other text editors.\nStorage: Overleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, …\nPublication systems: Microsoft Word, pdfLaTeX, XeLaTeX, RStudio, …\nEach with one output format in mind (e.g., device, size, color, …)\n\n\n\n\n\n\n\n\n\nflowchart LR\n  \n    I1(\"Source code\") & I3(\"Analysis\") --&gt; M1[\"Storage 1\"]\n    M1 --&gt; I3\n    I3 --&gt; M2\n    I3 --&gt; I2\n    I4[\"Other sources\"] --&gt; I2\n    I2(\"Figures\") --&gt; M2[\"Storage 2\"]\n    M1 -.-&gt; MS[\"Common storage 1\"]\n    M2 -.-&gt; MS\n    MS --&gt; A1[\"Authoring tool\"]\n    A1 --&gt; MS\n    MS --&gt; P1[\"Publication system\"]\n    P1 --&gt; O1[\"Output format\"]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n  \n    dummy1[ ]:::empty -.-&gt; I1\n    dummy1 -.-&gt; I2\n    dummy1 -.-&gt; I3\n    dummy1 -.-&gt; I4\n    I1(\"Text + Figures + \\n Code + ...\"):::input --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    I2(\"Text + Figures + \\n Code + ...\"):::input --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    I3(\"Text + Figures + \\n Code + ...\"):::input --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    I4(\"Text + Figures + \\n Code + ...\"):::input --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;",
     "crumbs": [
       "Home",
       "Why and How?"
@@ -15,7 +15,7 @@
     "href": "introduction.html#lots-of-specialised-options",
     "title": "Why and How to publish in the 21st century?",
     "section": "",
-    "text": "Authoring file formats:\n\nMicrosoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …\n\nAuthoring tools:\n\nOverleaf, Microsoft Office, and other text editors.\n\nStorage:\n\nOverleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, …\n\nPublication systems:\n\nMicrosoft Word, pdfLaTeX, XeLaTeX, RStudio, …",
+    "text": "Authoring file formats: Microsoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …\nAuthoring tools: Overleaf, Microsoft Office, and other text editors.\nStorage: Overleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, …\nPublication systems: Microsoft Word, pdfLaTeX, XeLaTeX, RStudio, …\nEach with one output format in mind (e.g., device, size, color, …)",
     "crumbs": [
       "Home",
       "Why and How?"
@@ -24,6 +24,17 @@
   {
     "objectID": "introduction.html#publication-workflow",
     "href": "introduction.html#publication-workflow",
+    "title": "Why and How to publish in the 21st century?",
+    "section": "",
+    "text": "flowchart LR\n  \n    I1(\"Source code\") & I3(\"Analysis\") --&gt; M1[\"Storage 1\"]\n    M1 --&gt; I3\n    I3 --&gt; M2\n    I3 --&gt; I2\n    I4[\"Other sources\"] --&gt; I2\n    I2(\"Figures\") --&gt; M2[\"Storage 2\"]\n    M1 -.-&gt; MS[\"Common storage 1\"]\n    M2 -.-&gt; MS\n    MS --&gt; A1[\"Authoring tool\"]\n    A1 --&gt; MS\n    MS --&gt; P1[\"Publication system\"]\n    P1 --&gt; O1[\"Output format\"]",
+    "crumbs": [
+      "Home",
+      "Why and How?"
+    ]
+  },
+  {
+    "objectID": "introduction.html#duplication-and-scatter-of-files",
+    "href": "introduction.html#duplication-and-scatter-of-files",
     "title": "Why and How to publish in the 21st century?",
     "section": "",
     "text": "%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n  \n    dummy1[ ]:::empty -.-&gt; I1\n    dummy1 -.-&gt; I2\n    dummy1 -.-&gt; I3\n    dummy1 -.-&gt; I4\n    I1(\"Text + Figures + \\n Code + ...\"):::input --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    I2(\"Text + Figures + \\n Code + ...\"):::input --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    I3(\"Text + Figures + \\n Code + ...\"):::input --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    I4(\"Text + Figures + \\n Code + ...\"):::input --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;",
@@ -48,14 +59,21 @@
     "href": "slides-intro-why-how.html#lots-of-specialised-options",
     "title": "Why and How to publish in the 21st century?",
     "section": "Lots of specialised options",
-    "text": "Lots of specialised options\n\nAuthoring file formats:\n\nMicrosoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …\n\nAuthoring tools:\n\nOverleaf, Microsoft Office, and other text editors.\n\nStorage:\n\nOverleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, …\n\nPublication systems:\n\nMicrosoft Word, pdfLaTeX, XeLaTeX, RStudio, …"
+    "text": "Lots of specialised options\n\nAuthoring file formats: Microsoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …\nAuthoring tools: Overleaf, Microsoft Office, and other text editors.\nStorage: Overleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, …\nPublication systems: Microsoft Word, pdfLaTeX, XeLaTeX, RStudio, …\nEach with one output format in mind (e.g., device, size, color, …)"
   },
   {
     "objectID": "slides-intro-why-how.html#publication-workflow",
     "href": "slides-intro-why-how.html#publication-workflow",
     "title": "Why and How to publish in the 21st century?",
     "section": "Publication workflow",
-    "text": "Publication workflow\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n  \n    dummy1[ ]:::empty -.-&gt; I1\n    dummy1 -.-&gt; I2\n    dummy1 -.-&gt; I3\n    dummy1 -.-&gt; I4\n    I1(\"Text + Figures + \\n Code + ...\"):::input --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    I2(\"Text + Figures + \\n Code + ...\"):::input --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    I3(\"Text + Figures + \\n Code + ...\"):::input --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    I4(\"Text + Figures + \\n Code + ...\"):::input --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;"
+    "text": "Publication workflow\n\n\n\n\n\nflowchart LR\n  \n    I1(\"Source code\") & I3(\"Analysis\") --&gt; M1[\"Storage 1\"]\n    M1 --&gt; I3\n    I3 --&gt; M2\n    I3 --&gt; I2\n    I4[\"Other sources\"] --&gt; I2\n    I2(\"Figures\") --&gt; M2[\"Storage 2\"]\n    M1 -.-&gt; MS[\"Common storage 1\"]\n    M2 -.-&gt; MS\n    MS --&gt; A1[\"Authoring tool\"]\n    A1 --&gt; MS\n    MS --&gt; P1[\"Publication system\"]\n    P1 --&gt; O1[\"Output format\"]"
+  },
+  {
+    "objectID": "slides-intro-why-how.html#duplication-and-scatter-of-files",
+    "href": "slides-intro-why-how.html#duplication-and-scatter-of-files",
+    "title": "Why and How to publish in the 21st century?",
+    "section": "Duplication and scatter of files",
+    "text": "Duplication and scatter of files\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n  \n    dummy1[ ]:::empty -.-&gt; I1\n    dummy1 -.-&gt; I2\n    dummy1 -.-&gt; I3\n    dummy1 -.-&gt; I4\n    I1(\"Text + Figures + \\n Code + ...\"):::input --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    I2(\"Text + Figures + \\n Code + ...\"):::input --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    I3(\"Text + Figures + \\n Code + ...\"):::input --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    I4(\"Text + Figures + \\n Code + ...\"):::input --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;"
   },
   {
     "objectID": "slides-intro-why-how.html#a-new-publication-paradigm",
