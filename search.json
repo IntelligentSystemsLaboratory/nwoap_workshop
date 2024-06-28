@@ -161,7 +161,18 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site",
+    "text": "This site contains information about a workshop organised in the University of Bristol to promote New Ways of Academic Publishing. This is part of a working group on New Ways of Publishing which periodically meets to discuss new technologies and tools to facilitate the authoring and publishing process.",
+    "crumbs": [
+      "Home",
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html#workshop-organisers",
+    "href": "about.html#workshop-organisers",
+    "title": "About",
+    "section": "Workshop organisers",
+    "text": "Workshop organisers\n\n\n\n\n\n\n\n\n\nMiquel Perello Nieto\n\n\n\n\n\n\n\nDaladier Sampaio Neto\n\n\n\n\n\n\n\nRoussel Desmond Nzoyem\n\n\n\n\n\n\n\nPeter Flach",
     "crumbs": [
       "Home",
       "About"
