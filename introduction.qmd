@@ -1,0 +1,46 @@
+---
+title: Why and How to publish in the 21st century?
+subtitle: <a href="slides-intro-why-how.html" target="_blank">
+author: 
+  - name:
+      given: Miquel
+      family: Perello Nieto
+    orcid: 0000-0001-8925-424X
+    email: miquel.perellonieto@bristol.ac.uk
+    affiliations:
+      - name: University of Bristol
+        city: Bristol
+        country: United Kingdom
+        postal-code: BS8 1QU
+    attributes:
+        equal-contributor: False
+format:
+  html: default
+  revealjs:
+    output-file: slides-intro-why-how.html
+---
+
+# Why do we need new ways?
+
+# What are possible solutions?
+
+# Existing technologies
+
+# In this workshop
+
+<!-- {.smaller} -->
+
+- 14:00 – 14:30 Introduction 
+    - MPN Why and How to publish in the 21st Century
+    - DDSN Technologies, formats, 
+- 14:30 – 15:00 Use cases 
+    - PF Reveal.js examples
+    - DDSN IAI Hub
+    - MPN Quarto website with MOOC + video + Shiny
+- 15:00 – 15:30 Break  
+- 15:30 – 16:00 Technologies  
+    - RDN Quarto
+    - Grant Obsidian
+    - DDSN Jekyll integration with GitHub + Bristol AI
+- 16:00 – 16:30 Design Hackathon  
+- 16:30 – 16:40 Closing session 
