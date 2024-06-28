@@ -1,0 +1,58 @@
+---
+title: "New Ways of Academic Publishing Workshop"
+---
+
+The distribution of academic research and teaching material has been based on books, static documents and slide presentations. However, the widespread adoption of electronic devices and the change to hybrid teaching are accelerating the creation of cross-platform content. Blogs, videos, software and other dynamic content are becoming the norm for better teaching and distribution of ideas. In this half-day workshop, we will explore many tools that can be used to facilitate the visibility of your own ideas and research outcomes. We will highlight some use cases of technologies, and spark discussions around best practices to simplify the publication workflow and maximization of its outreach. 
+
+## Workshop highlights: 
+
+### Exploration of available tools 
+
+There are too many tools for collaboration and dissemination of research ideas, we will provide insights into some of the more extended ones. 
+
+### Exemplar use cases 
+
+Multiple examples of technologies being used in projects to extend the visibility of research. 
+
+### Networking and collaboration 
+
+Meet like-minded people interested in expanding their personal network and creating potential research collaborations. 
+
+### Brainstorming 
+
+You will have the opportunity to share your own ideas in groups, which will lead to the definition of a forthcoming Hackathon. 
+
+### Date & Time: 
+
+28 June 2024 from 02:00 PM – 05:00 PM 
+
+### Location: 
+
+1.68, Queen's Building, Woodland Rd, Bristol BS8 1TH 
+
+### Programme overview: 
+
+- 14:00 – 14:30 Introduction 
+    - MPN Setting the stage
+    - DDSN Setting the stage
+- 14:30 – 15:00 Use cases 
+    - PF Reveal.js examples
+    - DDSN IAI Hub
+    - MPN Quarto website with MOOC + video + Shiny
+- 15:00 – 15:30 Break  
+- 15:30 – 16:00 Technologies  
+    - RDN Quarto
+    - Grant Obsidian
+    - DDSN Jekyll integration with GitHub + Bristol AI
+- 16:00 – 16:30 Design Hackathon  
+- 16:30 – 16:40 Closing session 
+
+### Call for short talks: 
+
+If you know about a tool or technology that can be used to facilitate the creation of online content, please reach out. We can discuss your idea and see if there is a slot during the workshop for a short presentation (e.g. 10 minutes). You can contact miquel.perellonieto@bristol.ac.uk, daladier.sampaioneto@bristol.ac.uk and rd.nzoyemngueguin@bristol.ac.uk 
+
+### Reserve your spot. 
+
+Places are limited, please register by filling out the form below. The form will be closed when no more spots are available. 
+
+https://forms.office.com/e/B32ZkuStan 
