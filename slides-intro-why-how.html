@@ -352,8 +352,8 @@ Miquel Perello Nieto <a href="https://orcid.org/0000-0001-8925-424X" class="quar
 <h1>Why new ways?</h1>
 
 </section>
-<section id="lots-of-specialised-options" class="slide level2">
-<h2>Lots of specialised options</h2>
+<section id="lots-of-specialised-tools" class="slide level2">
+<h2>Lots of specialised tools</h2>
 <ul>
 <li><strong>Authoring file formats</strong>: Microsoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …</li>
 <li><strong>Authoring tools</strong>: Overleaf, Microsoft Office, and other text editors.</li>
@@ -364,6 +364,7 @@ Miquel Perello Nieto <a href="https://orcid.org/0000-0001-8925-424X" class="quar
 </section>
 <section id="publication-workflow" class="slide level2">
 <h2>Publication workflow</h2>
+<p>Workflow to create one type of publication</p>
 <div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -382,10 +383,37 @@ Miquel Perello Nieto <a href="https://orcid.org/0000-0001-8925-424X" class="quar
     MS --&gt; A1["Authoring tool"]
     A1 --&gt; MS
     MS --&gt; P1["Publication system"]
-    P1 --&gt; O1["Output format"]
+    P1 --&gt; O1["Output 1"]
+    style MS fill:#fca
+    style O1 fill:#faa
 </pre>
 </div>
 <p></p></figure><p></p>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p>Workflow to adapt and produce other types of publications</p>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  
+    MS["Common storage 1"] --&gt; M2["Common storage 2"]
+    MS --&gt; I2("Figures")
+    I2 --&gt; M2
+    M2 --&gt; A1["Authoring tool"]
+    A1 --&gt; M2
+    M2 --&gt; P1["Publication system 2"]
+    P1 --&gt; O1["Output 2"]
+    style MS fill:#fca
+    style O1 fill:#faa
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
 </div>
 </div>
 </div>
@@ -428,6 +456,7 @@ flowchart LR
 </section>
 <section id="a-new-publication-paradigm" class="slide level2">
 <h2>A new publication paradigm</h2>
+<p>Version controlled and in one location</p>
 <div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -452,9 +481,9 @@ flowchart LR
 </div>
 </div>
 </div>
-</section></section>
-<section id="existing-technologies" class="title-slide slide level1 center">
-<h1>Existing technologies</h1>
+</section>
+<section id="existing-technologies" class="slide level2">
+<h2>Existing technologies</h2>
 <ul>
 <li>Jupyter Book</li>
 <li>Quarto</li>
@@ -463,15 +492,65 @@ flowchart LR
 <li>D2L book</li>
 <li>Sphinx</li>
 </ul>
-</section>
+</section></section>
+<section>
+<section id="what-next" class="title-slide slide level1 center">
+<h1>What next?</h1>
 
+</section>
+<section id="we-are-not-there-yet" class="slide level2">
+<h2>We are not there yet</h2>
+<ul>
+<li>Current multipurpose publishing systems are under development</li>
+<li>Using them may be more difficult than more established methods</li>
+<li>Lack of stability and missing functionalities</li>
+<li>Lack of standards</li>
+</ul>
+</section>
+<section id="new-paradigms" class="slide level2">
+<h2>New paradigms</h2>
+<ul>
+<li>Storage in one or multiple locations by types of files</li>
+<li>A composition toolkit to mix</li>
+</ul>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{ init : { "flowchart" : { "curve" : "stepBefore" }}}%%
+
+flowchart LR
+    I1("&lt;center&gt;Text&lt;/center&gt;"):::input --- dummy1( ):::empty
+    I2("Figures"):::input --- dummy1
+    I3(Code):::input --- dummy1
+    I4(...):::input --- dummy1
+    dummy1 --&gt; C:::foo
+    C{{"Composition"}} --- dummy2( ):::empty
+    dummy2 --&gt; O1["Published \n Paper \n (PDF)"]
+    style C fill:#f9f
+    dummy2 --&gt; O2["Presentation \n Slides \n (PPTX/PDF)"]
+    dummy2 --&gt; O3["Poster \n (PPTX/PDF)"]
+    dummy2 --&gt; O4["Computational \n Notebook \n (Colab)"]
+    style O1 fill:#fca
+    style O2 fill:#ffb
+    style O3 fill:#f99
+    style O4 fill:#bfb
+    classDef empty width:0px,height:0px,fill:#000;
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section></section>
 <section id="in-this-workshop" class="title-slide slide level1 smaller center">
 <h1>In this workshop</h1>
 <ul>
 <li>14:00 – 14:30 Introduction
 <ul>
 <li>MPN Why and How to publish in the 21st Century</li>
-<li>DDSN Technologies, formats,</li>
+<li>DDSN Technologies and use cases</li>
 </ul></li>
 <li>14:30 – 15:00 Use cases
 <ul>

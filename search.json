@@ -4,15 +4,15 @@
     "href": "introduction.html",
     "title": "Why and How to publish in the 21st century?",
     "section": "",
-    "text": "Authoring file formats: Microsoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …\nAuthoring tools: Overleaf, Microsoft Office, and other text editors.\nStorage: Overleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, …\nPublication systems: Microsoft Word, pdfLaTeX, XeLaTeX, RStudio, …\nEach with one output format in mind (e.g., device, size, color, …)\n\n\n\n\n\n\n\n\n\nflowchart LR\n  \n    I1(\"Source code\") & I3(\"Analysis\") --&gt; M1[\"Storage 1\"]\n    M1 --&gt; I3\n    I3 --&gt; M2\n    I3 --&gt; I2\n    I4[\"Other sources\"] --&gt; I2\n    I2(\"Figures\") --&gt; M2[\"Storage 2\"]\n    M1 -.-&gt; MS[\"Common storage 1\"]\n    M2 -.-&gt; MS\n    MS --&gt; A1[\"Authoring tool\"]\n    A1 --&gt; MS\n    MS --&gt; P1[\"Publication system\"]\n    P1 --&gt; O1[\"Output format\"]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n  \n    dummy1[ ]:::empty -.-&gt; I1\n    dummy1 -.-&gt; I2\n    dummy1 -.-&gt; I3\n    dummy1 -.-&gt; I4\n    I1(\"Text + Figures + \\n Code + ...\"):::input --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    I2(\"Text + Figures + \\n Code + ...\"):::input --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    I3(\"Text + Figures + \\n Code + ...\"):::input --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    I4(\"Text + Figures + \\n Code + ...\"):::input --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;",
+    "text": "Authoring file formats: Microsoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …\nAuthoring tools: Overleaf, Microsoft Office, and other text editors.\nStorage: Overleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, …\nPublication systems: Microsoft Word, pdfLaTeX, XeLaTeX, RStudio, …\nEach with one output format in mind (e.g., device, size, color, …)\n\n\n\n\nWorkflow to create one type of publication\n\n\n\n\n\nflowchart LR\n  \n    I1(\"Source code\") & I3(\"Analysis\") --&gt; M1[\"Storage 1\"]\n    M1 --&gt; I3\n    I3 --&gt; M2\n    I3 --&gt; I2\n    I4[\"Other sources\"] --&gt; I2\n    I2(\"Figures\") --&gt; M2[\"Storage 2\"]\n    M1 -.-&gt; MS[\"Common storage 1\"]\n    M2 -.-&gt; MS\n    MS --&gt; A1[\"Authoring tool\"]\n    A1 --&gt; MS\n    MS --&gt; P1[\"Publication system\"]\n    P1 --&gt; O1[\"Output 1\"]\n    style MS fill:#fca\n    style O1 fill:#faa\n\n\n\n\n\n\nWorkflow to adapt and produce other types of publications\n\n\n\n\n\nflowchart LR\n  \n    MS[\"Common storage 1\"] --&gt; M2[\"Common storage 2\"]\n    MS --&gt; I2(\"Figures\")\n    I2 --&gt; M2\n    M2 --&gt; A1[\"Authoring tool\"]\n    A1 --&gt; M2\n    M2 --&gt; P1[\"Publication system 2\"]\n    P1 --&gt; O1[\"Output 2\"]\n    style MS fill:#fca\n    style O1 fill:#faa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n  \n    dummy1[ ]:::empty -.-&gt; I1\n    dummy1 -.-&gt; I2\n    dummy1 -.-&gt; I3\n    dummy1 -.-&gt; I4\n    I1(\"Text + Figures + \\n Code + ...\"):::input --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    I2(\"Text + Figures + \\n Code + ...\"):::input --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    I3(\"Text + Figures + \\n Code + ...\"):::input --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    I4(\"Text + Figures + \\n Code + ...\"):::input --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;",
     "crumbs": [
       "Home",
       "Why and How?"
     ]
   },
   {
-    "objectID": "introduction.html#lots-of-specialised-options",
-    "href": "introduction.html#lots-of-specialised-options",
+    "objectID": "introduction.html#lots-of-specialised-tools",
+    "href": "introduction.html#lots-of-specialised-tools",
     "title": "Why and How to publish in the 21st century?",
     "section": "",
     "text": "Authoring file formats: Microsoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …\nAuthoring tools: Overleaf, Microsoft Office, and other text editors.\nStorage: Overleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, …\nPublication systems: Microsoft Word, pdfLaTeX, XeLaTeX, RStudio, …\nEach with one output format in mind (e.g., device, size, color, …)",
@@ -26,7 +26,7 @@
     "href": "introduction.html#publication-workflow",
     "title": "Why and How to publish in the 21st century?",
     "section": "",
-    "text": "flowchart LR\n  \n    I1(\"Source code\") & I3(\"Analysis\") --&gt; M1[\"Storage 1\"]\n    M1 --&gt; I3\n    I3 --&gt; M2\n    I3 --&gt; I2\n    I4[\"Other sources\"] --&gt; I2\n    I2(\"Figures\") --&gt; M2[\"Storage 2\"]\n    M1 -.-&gt; MS[\"Common storage 1\"]\n    M2 -.-&gt; MS\n    MS --&gt; A1[\"Authoring tool\"]\n    A1 --&gt; MS\n    MS --&gt; P1[\"Publication system\"]\n    P1 --&gt; O1[\"Output format\"]",
+    "text": "Workflow to create one type of publication\n\n\n\n\n\nflowchart LR\n  \n    I1(\"Source code\") & I3(\"Analysis\") --&gt; M1[\"Storage 1\"]\n    M1 --&gt; I3\n    I3 --&gt; M2\n    I3 --&gt; I2\n    I4[\"Other sources\"] --&gt; I2\n    I2(\"Figures\") --&gt; M2[\"Storage 2\"]\n    M1 -.-&gt; MS[\"Common storage 1\"]\n    M2 -.-&gt; MS\n    MS --&gt; A1[\"Authoring tool\"]\n    A1 --&gt; MS\n    MS --&gt; P1[\"Publication system\"]\n    P1 --&gt; O1[\"Output 1\"]\n    style MS fill:#fca\n    style O1 fill:#faa\n\n\n\n\n\n\nWorkflow to adapt and produce other types of publications\n\n\n\n\n\nflowchart LR\n  \n    MS[\"Common storage 1\"] --&gt; M2[\"Common storage 2\"]\n    MS --&gt; I2(\"Figures\")\n    I2 --&gt; M2\n    M2 --&gt; A1[\"Authoring tool\"]\n    A1 --&gt; M2\n    M2 --&gt; P1[\"Publication system 2\"]\n    P1 --&gt; O1[\"Output 2\"]\n    style MS fill:#fca\n    style O1 fill:#faa",
     "crumbs": [
       "Home",
       "Why and How?"
@@ -48,25 +48,58 @@
     "href": "introduction.html#a-new-publication-paradigm",
     "title": "Why and How to publish in the 21st century?",
     "section": "A new publication paradigm",
-    "text": "A new publication paradigm\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n    I1(\"Text + Figures + \\n Code + ...\"):::input --- dummy2( ):::empty\n    dummy2 --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    dummy2 --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;",
+    "text": "A new publication paradigm\nVersion controlled and in one location\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n    I1(\"Text + Figures + \\n Code + ...\"):::input --- dummy2( ):::empty\n    dummy2 --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    dummy2 --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;",
     "crumbs": [
       "Home",
       "Why and How?"
     ]
   },
   {
-    "objectID": "slides-intro-why-how.html#lots-of-specialised-options",
-    "href": "slides-intro-why-how.html#lots-of-specialised-options",
+    "objectID": "introduction.html#existing-technologies",
+    "href": "introduction.html#existing-technologies",
     "title": "Why and How to publish in the 21st century?",
-    "section": "Lots of specialised options",
-    "text": "Lots of specialised options\n\nAuthoring file formats: Microsoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …\nAuthoring tools: Overleaf, Microsoft Office, and other text editors.\nStorage: Overleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, …\nPublication systems: Microsoft Word, pdfLaTeX, XeLaTeX, RStudio, …\nEach with one output format in mind (e.g., device, size, color, …)"
+    "section": "Existing technologies",
+    "text": "Existing technologies\n\nJupyter Book\nQuarto\nR Markdown\nBookdown\nD2L book\nSphinx",
+    "crumbs": [
+      "Home",
+      "Why and How?"
+    ]
+  },
+  {
+    "objectID": "introduction.html#we-are-not-there-yet",
+    "href": "introduction.html#we-are-not-there-yet",
+    "title": "Why and How to publish in the 21st century?",
+    "section": "We are not there yet",
+    "text": "We are not there yet\n\nCurrent multipurpose publishing systems are under development\nUsing them may be more difficult than more established methods\nLack of stability and missing functionalities\nLack of standards",
+    "crumbs": [
+      "Home",
+      "Why and How?"
+    ]
+  },
+  {
+    "objectID": "introduction.html#new-paradigms",
+    "href": "introduction.html#new-paradigms",
+    "title": "Why and How to publish in the 21st century?",
+    "section": "New paradigms",
+    "text": "New paradigms\n\nStorage in one or multiple locations by types of files\nA composition toolkit to mix\n\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n    I1(\"&lt;center&gt;Text&lt;/center&gt;\"):::input --- dummy1( ):::empty\n    I2(\"Figures\"):::input --- dummy1\n    I3(Code):::input --- dummy1\n    I4(...):::input --- dummy1\n    dummy1 --&gt; C:::foo\n    C{{\"Composition\"}} --- dummy2( ):::empty\n    dummy2 --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    style C fill:#f9f\n    dummy2 --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;",
+    "crumbs": [
+      "Home",
+      "Why and How?"
+    ]
+  },
+  {
+    "objectID": "slides-intro-why-how.html#lots-of-specialised-tools",
+    "href": "slides-intro-why-how.html#lots-of-specialised-tools",
+    "title": "Why and How to publish in the 21st century?",
+    "section": "Lots of specialised tools",
+    "text": "Lots of specialised tools\n\nAuthoring file formats: Microsoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …\nAuthoring tools: Overleaf, Microsoft Office, and other text editors.\nStorage: Overleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, …\nPublication systems: Microsoft Word, pdfLaTeX, XeLaTeX, RStudio, …\nEach with one output format in mind (e.g., device, size, color, …)"
   },
   {
     "objectID": "slides-intro-why-how.html#publication-workflow",
     "href": "slides-intro-why-how.html#publication-workflow",
     "title": "Why and How to publish in the 21st century?",
     "section": "Publication workflow",
-    "text": "Publication workflow\n\n\n\n\n\nflowchart LR\n  \n    I1(\"Source code\") & I3(\"Analysis\") --&gt; M1[\"Storage 1\"]\n    M1 --&gt; I3\n    I3 --&gt; M2\n    I3 --&gt; I2\n    I4[\"Other sources\"] --&gt; I2\n    I2(\"Figures\") --&gt; M2[\"Storage 2\"]\n    M1 -.-&gt; MS[\"Common storage 1\"]\n    M2 -.-&gt; MS\n    MS --&gt; A1[\"Authoring tool\"]\n    A1 --&gt; MS\n    MS --&gt; P1[\"Publication system\"]\n    P1 --&gt; O1[\"Output format\"]"
+    "text": "Publication workflow\nWorkflow to create one type of publication\n\n\n\n\n\nflowchart LR\n  \n    I1(\"Source code\") & I3(\"Analysis\") --&gt; M1[\"Storage 1\"]\n    M1 --&gt; I3\n    I3 --&gt; M2\n    I3 --&gt; I2\n    I4[\"Other sources\"] --&gt; I2\n    I2(\"Figures\") --&gt; M2[\"Storage 2\"]\n    M1 -.-&gt; MS[\"Common storage 1\"]\n    M2 -.-&gt; MS\n    MS --&gt; A1[\"Authoring tool\"]\n    A1 --&gt; MS\n    MS --&gt; P1[\"Publication system\"]\n    P1 --&gt; O1[\"Output 1\"]\n    style MS fill:#fca\n    style O1 fill:#faa\n\n\n\n\n\n\n\nWorkflow to adapt and produce other types of publications\n\n\n\n\n\nflowchart LR\n  \n    MS[\"Common storage 1\"] --&gt; M2[\"Common storage 2\"]\n    MS --&gt; I2(\"Figures\")\n    I2 --&gt; M2\n    M2 --&gt; A1[\"Authoring tool\"]\n    A1 --&gt; M2\n    M2 --&gt; P1[\"Publication system 2\"]\n    P1 --&gt; O1[\"Output 2\"]\n    style MS fill:#fca\n    style O1 fill:#faa"
   },
   {
     "objectID": "slides-intro-why-how.html#duplication-and-scatter-of-files",
@@ -80,7 +113,28 @@
     "href": "slides-intro-why-how.html#a-new-publication-paradigm",
     "title": "Why and How to publish in the 21st century?",
     "section": "A new publication paradigm",
-    "text": "A new publication paradigm\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n    I1(\"Text + Figures + \\n Code + ...\"):::input --- dummy2( ):::empty\n    dummy2 --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    dummy2 --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;"
+    "text": "A new publication paradigm\nVersion controlled and in one location\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n    I1(\"Text + Figures + \\n Code + ...\"):::input --- dummy2( ):::empty\n    dummy2 --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    dummy2 --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;"
+  },
+  {
+    "objectID": "slides-intro-why-how.html#existing-technologies",
+    "href": "slides-intro-why-how.html#existing-technologies",
+    "title": "Why and How to publish in the 21st century?",
+    "section": "Existing technologies",
+    "text": "Existing technologies\n\nJupyter Book\nQuarto\nR Markdown\nBookdown\nD2L book\nSphinx"
+  },
+  {
+    "objectID": "slides-intro-why-how.html#we-are-not-there-yet",
+    "href": "slides-intro-why-how.html#we-are-not-there-yet",
+    "title": "Why and How to publish in the 21st century?",
+    "section": "We are not there yet",
+    "text": "We are not there yet\n\nCurrent multipurpose publishing systems are under development\nUsing them may be more difficult than more established methods\nLack of stability and missing functionalities\nLack of standards"
+  },
+  {
+    "objectID": "slides-intro-why-how.html#new-paradigms",
+    "href": "slides-intro-why-how.html#new-paradigms",
+    "title": "Why and How to publish in the 21st century?",
+    "section": "New paradigms",
+    "text": "New paradigms\n\nStorage in one or multiple locations by types of files\nA composition toolkit to mix\n\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n    I1(\"&lt;center&gt;Text&lt;/center&gt;\"):::input --- dummy1( ):::empty\n    I2(\"Figures\"):::input --- dummy1\n    I3(Code):::input --- dummy1\n    I4(...):::input --- dummy1\n    dummy1 --&gt; C:::foo\n    C{{\"Composition\"}} --- dummy2( ):::empty\n    dummy2 --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    style C fill:#f9f\n    dummy2 --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;"
   },
   {
     "objectID": "index.html",
