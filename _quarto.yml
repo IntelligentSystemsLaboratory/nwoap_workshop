@@ -3,6 +3,10 @@ project:
 
 website:
   title: "New Ways of Academic Publishing Workshop"
+  site-url: https://intelligentsystemslaboratory.github.io/nwoap_workshop/
+  repo-url: https://github.com/IntelligentSystemsLaboratory/nwoap_workshop
+  repo-branch: main
+  repo-actions: [edit, issue]
   navbar:
     left:
       - href: index.qmd
@@ -10,6 +14,24 @@ website:
       - href: introduction.qmd
         text: Why and How?
       - about.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    collapse-level: 2
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href: https://github.com/IntelligentSystemsLaboratory/nwoap_workshop
+          - text: Report a Bug
+            href: https://github.com/IntelligentSystemsLaboratory/nwoap_workshop/issues/new?labels=bug
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: introduction.qmd
+        text: Why and How?
+      - about.qmd
+
 
 format:
   html:

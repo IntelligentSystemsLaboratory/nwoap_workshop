@@ -70,9 +70,7 @@ flowchart LR
 - D2L book
 - Sphinx 
 
-# In this workshop
-
-<!-- {.smaller} -->
+# In this workshop {.smaller}
 
 - 14:00 – 14:30 Introduction 
     - MPN Why and How to publish in the 21st Century
