@@ -4,11 +4,65 @@
     "href": "introduction.html",
     "title": "Why and How to publish in the 21st century?",
     "section": "",
-    "text": "Why do we need new ways?\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n  \n    dummy1[ ]:::empty -.-&gt; I1\n    dummy1 -.-&gt; I2\n    dummy1 -.-&gt; I3\n    dummy1 -.-&gt; I4\n    I1(\"Text + Figures + \\n Code + ...\"):::input --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    I2(\"Text + Figures + \\n Code + ...\"):::input --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    I3(\"Text + Figures + \\n Code + ...\"):::input --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    I4(\"Text + Figures + \\n Code + ...\"):::input --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;\n\n\n\n\n\n\n\n\nWhat are possible solutions?\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n    I1(\"Text + Figures + \\n Code + ...\"):::input --- dummy2( ):::empty\n    dummy2 --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    dummy2 --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;\n\n\n\n\n\n\n\n\nExisting technologies\n\nJupyter Book\nQuarto\nR Markdown\nBookdown\nD2L book\nSphinx\n\n\n\nIn this workshop\n\n14:00 – 14:30 Introduction\n\nMPN Why and How to publish in the 21st Century\nDDSN Technologies, formats,\n\n14:30 – 15:00 Use cases\n\nPF Reveal.js examples\nDDSN IAI Hub\nMPN Quarto website with MOOC + video + Shiny\n\n15:00 – 15:30 Break\n\n15:30 – 16:00 Technologies\n\nRDN Quarto\nGrant Obsidian\nDDSN Jekyll integration with GitHub + Bristol AI\n\n16:00 – 16:30 Design Hackathon\n\n16:30 – 16:40 Closing session",
+    "text": "Authoring file formats:\n\nMicrosoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …\n\nAuthoring tools:\n\nOverleaf, Microsoft Office, and other text editors.\n\nStorage:\n\nOverleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, …\n\nPublication systems:\n\nMicrosoft Word, pdfLaTeX, XeLaTeX, RStudio, …\n\n\n\n\n\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n  \n    dummy1[ ]:::empty -.-&gt; I1\n    dummy1 -.-&gt; I2\n    dummy1 -.-&gt; I3\n    dummy1 -.-&gt; I4\n    I1(\"Text + Figures + \\n Code + ...\"):::input --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    I2(\"Text + Figures + \\n Code + ...\"):::input --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    I3(\"Text + Figures + \\n Code + ...\"):::input --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    I4(\"Text + Figures + \\n Code + ...\"):::input --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;",
     "crumbs": [
       "Home",
       "Why and How?"
     ]
+  },
+  {
+    "objectID": "introduction.html#lots-of-specialised-options",
+    "href": "introduction.html#lots-of-specialised-options",
+    "title": "Why and How to publish in the 21st century?",
+    "section": "",
+    "text": "Authoring file formats:\n\nMicrosoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …\n\nAuthoring tools:\n\nOverleaf, Microsoft Office, and other text editors.\n\nStorage:\n\nOverleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, …\n\nPublication systems:\n\nMicrosoft Word, pdfLaTeX, XeLaTeX, RStudio, …",
+    "crumbs": [
+      "Home",
+      "Why and How?"
+    ]
+  },
+  {
+    "objectID": "introduction.html#publication-workflow",
+    "href": "introduction.html#publication-workflow",
+    "title": "Why and How to publish in the 21st century?",
+    "section": "",
+    "text": "%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n  \n    dummy1[ ]:::empty -.-&gt; I1\n    dummy1 -.-&gt; I2\n    dummy1 -.-&gt; I3\n    dummy1 -.-&gt; I4\n    I1(\"Text + Figures + \\n Code + ...\"):::input --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    I2(\"Text + Figures + \\n Code + ...\"):::input --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    I3(\"Text + Figures + \\n Code + ...\"):::input --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    I4(\"Text + Figures + \\n Code + ...\"):::input --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;",
+    "crumbs": [
+      "Home",
+      "Why and How?"
+    ]
+  },
+  {
+    "objectID": "introduction.html#a-new-publication-paradigm",
+    "href": "introduction.html#a-new-publication-paradigm",
+    "title": "Why and How to publish in the 21st century?",
+    "section": "A new publication paradigm",
+    "text": "A new publication paradigm\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n    I1(\"Text + Figures + \\n Code + ...\"):::input --- dummy2( ):::empty\n    dummy2 --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    dummy2 --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;",
+    "crumbs": [
+      "Home",
+      "Why and How?"
+    ]
+  },
+  {
+    "objectID": "slides-intro-why-how.html#lots-of-specialised-options",
+    "href": "slides-intro-why-how.html#lots-of-specialised-options",
+    "title": "Why and How to publish in the 21st century?",
+    "section": "Lots of specialised options",
+    "text": "Lots of specialised options\n\nAuthoring file formats:\n\nMicrosoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …\n\nAuthoring tools:\n\nOverleaf, Microsoft Office, and other text editors.\n\nStorage:\n\nOverleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, …\n\nPublication systems:\n\nMicrosoft Word, pdfLaTeX, XeLaTeX, RStudio, …"
+  },
+  {
+    "objectID": "slides-intro-why-how.html#publication-workflow",
+    "href": "slides-intro-why-how.html#publication-workflow",
+    "title": "Why and How to publish in the 21st century?",
+    "section": "Publication workflow",
+    "text": "Publication workflow\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n  \n    dummy1[ ]:::empty -.-&gt; I1\n    dummy1 -.-&gt; I2\n    dummy1 -.-&gt; I3\n    dummy1 -.-&gt; I4\n    I1(\"Text + Figures + \\n Code + ...\"):::input --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    I2(\"Text + Figures + \\n Code + ...\"):::input --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    I3(\"Text + Figures + \\n Code + ...\"):::input --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    I4(\"Text + Figures + \\n Code + ...\"):::input --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;"
+  },
+  {
+    "objectID": "slides-intro-why-how.html#a-new-publication-paradigm",
+    "href": "slides-intro-why-how.html#a-new-publication-paradigm",
+    "title": "Why and How to publish in the 21st century?",
+    "section": "A new publication paradigm",
+    "text": "A new publication paradigm\n\n\n\n\n\n%%{ init : { \"flowchart\" : { \"curve\" : \"stepBefore\" }}}%%\n\nflowchart LR\n    I1(\"Text + Figures + \\n Code + ...\"):::input --- dummy2( ):::empty\n    dummy2 --&gt; O1[\"Published \\n Paper \\n (PDF)\"]\n    dummy2 --&gt; O2[\"Presentation \\n Slides \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O3[\"Poster \\n (PPTX/PDF)\"]\n    dummy2 --&gt; O4[\"Computational \\n Notebook \\n (Colab)\"]\n    style O1 fill:#fca\n    style O2 fill:#ffb\n    style O3 fill:#f99\n    style O4 fill:#bfb\n    classDef empty width:0px,height:0px,fill:#000;"
   },
   {
     "objectID": "index.html",
