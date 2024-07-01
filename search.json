@@ -157,6 +157,83 @@
     ]
   },
   {
+    "objectID": "slides-iai-hub.html#introduction",
+    "href": "slides-iai-hub.html#introduction",
+    "title": "IAI-Hub",
+    "section": "Introduction",
+    "text": "Introduction\n\nAcademic research can be disseminated through traditionally published papers and books.\nModern dissemination methods include blogs, videos, software, notebooks, slide decks, tutorials, arXiv, Github repositories, Slack workspaces, and social media platforms.\nThere is no easy solution to author and manage this variety of artefacts coherently.\nEach outlet requires its own input, leading to duplication of effort, synchronization issues, and errors."
+  },
+  {
+    "objectID": "slides-iai-hub.html#introduction-1",
+    "href": "slides-iai-hub.html#introduction-1",
+    "title": "IAI-Hub",
+    "section": "Introduction",
+    "text": "Introduction\n\nTo create a unified platform that simplifies publishing academic content online in different formats.\nEasy to track the research projects and to maintain.\nIncrease the online presence of a research group or CDT."
+  },
+  {
+    "objectID": "slides-iai-hub.html#architecture",
+    "href": "slides-iai-hub.html#architecture",
+    "title": "IAI-Hub",
+    "section": "Architecture",
+    "text": "Architecture"
+  },
+  {
+    "objectID": "slides-iai-hub.html#django-application",
+    "href": "slides-iai-hub.html#django-application",
+    "title": "IAI-Hub",
+    "section": "Django Application",
+    "text": "Django Application"
+  },
+  {
+    "objectID": "slides-iai-hub.html#quarto-application",
+    "href": "slides-iai-hub.html#quarto-application",
+    "title": "IAI-Hub",
+    "section": "Quarto Application",
+    "text": "Quarto Application"
+  },
+  {
+    "objectID": "use_cases.html",
+    "href": "use_cases.html",
+    "title": "IAI-Hub",
+    "section": "",
+    "text": "Academic research can be disseminated through traditionally published papers and books.\nModern dissemination methods include blogs, videos, software, notebooks, slide decks, tutorials, arXiv, Github repositories, Slack workspaces, and social media platforms.\nThere is no easy solution to author and manage this variety of artefacts coherently.\nEach outlet requires its own input, leading to duplication of effort, synchronization issues, and errors."
+  },
+  {
+    "objectID": "use_cases.html#introduction",
+    "href": "use_cases.html#introduction",
+    "title": "IAI-Hub",
+    "section": "",
+    "text": "Academic research can be disseminated through traditionally published papers and books.\nModern dissemination methods include blogs, videos, software, notebooks, slide decks, tutorials, arXiv, Github repositories, Slack workspaces, and social media platforms.\nThere is no easy solution to author and manage this variety of artefacts coherently.\nEach outlet requires its own input, leading to duplication of effort, synchronization issues, and errors."
+  },
+  {
+    "objectID": "use_cases.html#introduction-1",
+    "href": "use_cases.html#introduction-1",
+    "title": "IAI-Hub",
+    "section": "Introduction",
+    "text": "Introduction\n\nTo create a unified platform that simplifies publishing academic content online in different formats.\nEasy to track the research projects and to maintain.\nIncrease the online presence of a research group or CDT."
+  },
+  {
+    "objectID": "use_cases.html#architecture",
+    "href": "use_cases.html#architecture",
+    "title": "IAI-Hub",
+    "section": "Architecture",
+    "text": "Architecture"
+  },
+  {
+    "objectID": "use_cases.html#django-application",
+    "href": "use_cases.html#django-application",
+    "title": "IAI-Hub",
+    "section": "Django Application",
+    "text": "Django Application"
+  },
+  {
+    "objectID": "use_cases.html#quarto-application",
+    "href": "use_cases.html#quarto-application",
+    "title": "IAI-Hub",
+    "section": "Quarto Application",
+    "text": "Quarto Application"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
