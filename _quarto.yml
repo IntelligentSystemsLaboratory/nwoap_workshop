@@ -16,6 +16,7 @@ website:
       - about.qmd
   sidebar:
     style: "docked"
+    logo: "./images/nwoap_book_world_library_thumbnail.jpg"
     search: true
     collapse-level: 2
     tools:
