@@ -15,6 +15,8 @@ website:
         text: Why and How?
       - href: use_cases.qmd
         text: 'IAI Hub'
+      - href: Jekyll.qmd
+        text: 'Jekyll'
       - about.qmd
   sidebar:
     style: "docked"
@@ -33,6 +35,10 @@ website:
         text: Home
       - href: introduction.qmd
         text: Why and How?
+      - href: use_cases.qmd
+        text: 'IAI Hub'
+      - href: Jekyll.qmd
+        text: 'Jekyll'
       - about.qmd
 
 

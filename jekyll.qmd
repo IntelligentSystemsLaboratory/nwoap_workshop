@@ -1,0 +1,103 @@
+---
+title: "Jekyll"
+format:
+    revealjs:
+        theme: simple
+        output-file: slides-Jekyll.html
+        width: 960
+        height: 700
+author: Daladier Sampaio Neto
+jupyter: python3
+---
+
+## Introduction to Jekyll
+
+- What is Jekyll?
+    - Open-source static site generator
+    - Written in Ruby
+    - Developed by GitHub co-founder Tom Preston-Werner
+
+## Key Features
+
+- Static Site Generation
+    - Converts plain text files into static websites and blogs
+- Markdown Support
+    - Uses Markdown for easy content creation
+- Template Engine
+    - Liquid template language for flexible design and layout
+- Data Files
+    - Support for YAML, JSON, CSV for dynamic content
+
+## Benefits of Using Jekyll
+
+- Performance
+    - Fast loading times due to static content
+- Security
+    - Reduced attack surface compared to dynamic sites
+- Ease of Use
+    - Simple setup and configuration
+- Version Control
+    - Ideal for Git-based workflows, integrates seamlessly with GitHub Pages
+
+## Typical Use Cases
+
+- Personal Blogs
+    - Lightweight and customizable blogging platform
+- Project Documentation
+    - Clean, organized documentation sites
+- Company Websites
+    - Static company sites with fast performance and high security
+
+## Installation and Setup
+
+- Requirements
+    - Ruby, RubyGems, and Bundler
+- Basic Steps
+    - Install Jekyll via gem: gem install jekyll bundler
+    - Create a new site: jekyll new mysite
+    - Navigate to site directory: cd mysite
+    - Build and serve the site: bundle exec jekyll serve
+
+## Customization and Theming
+
+- Themes
+    - Built-in themes or custom themes from the community
+    - Change themes by updating _config.yml
+- Plugins
+    - Extend functionality with Ruby gems
+    - Common plugins: SEO optimization, sitemap generation
+
+## Deployment Options
+
+- GitHub Pages
+    - Free hosting with GitHub integration
+    - Automatic deployment on push
+- Other Hosting Services
+    - Netlify, Vercel, Amazon S3, and more
+    - Easy deployment with continuous integration
+
+## Example
+
+- Bristol AI
+
+![](jekyll_files/bristol_ai.png){.absolute height=75% top=175 left=150}
+
+## GitHub Integration
+
+- Seamless workflows
+    - Jekyll and GitHub Pages work together to provide a streamlined workflow for building and deploying static websites.
+    - GitHub Pages 
+- Deployments directy from a repository
+- Simple configuration
+- Automatic Builds
+    - Continuous Deployment
+    - The page deployment automatically updates your website
+
+
+
+## Conclusion
+
+- Why Choose Jekyll?
+    - Efficient, secure, and easy to use
+    - Ideal for developers and non-developers alike
+    - Robust community and extensive documentation
