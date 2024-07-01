@@ -1,6 +1,7 @@
 ---
 title: "Jekyll"
 format:
+    html: default
     revealjs:
         theme: simple
         output-file: slides-Jekyll.html
@@ -80,7 +81,7 @@ jupyter: python3
 
 - Bristol AI
 
-![](jekyll_files/bristol_ai.png){.absolute height=75% top=175 left=150}
+![](images/bristol_ai.png){.absolute height=75% top=175 left=150}
 
 ## GitHub Integration
 
