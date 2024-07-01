@@ -13,6 +13,8 @@ website:
         text: Home
       - href: introduction.qmd
         text: Why and How?
+      - href: use_cases.qmd
+        text: 'IAI Hub'
       - about.qmd
   sidebar:
     style: "docked"
