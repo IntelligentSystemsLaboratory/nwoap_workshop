@@ -15,7 +15,7 @@ website:
         text: Why and How?
       - href: use_cases.qmd
         text: 'IAI Hub'
-      - href: Jekyll.qmd
+      - href: jekyll.qmd
         text: 'Jekyll'
       - about.qmd
   sidebar:
@@ -37,7 +37,7 @@ website:
         text: Why and How?
       - href: use_cases.qmd
         text: 'IAI Hub'
-      - href: Jekyll.qmd
+      - href: jekyll.qmd
         text: 'Jekyll'
       - about.qmd
 
