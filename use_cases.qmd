@@ -1,0 +1,37 @@
+---
+title: "IAI-Hub"
+format:
+    html: default
+    revealjs:
+        theme: simple
+        output-file: slides-iai-hub.html
+        width: 960
+        height: 700
+author: Daladier Sampaio Neto
+jupyter: python3
+---
+
+## Introduction
+
+- Academic research can be disseminated through traditionally published papers and books.
+- Modern dissemination methods include blogs, videos, software, notebooks, slide decks, tutorials, arXiv, Github repositories, Slack workspaces, and social media platforms.
+- There is no easy solution to author and manage this variety of artefacts coherently.
+- Each outlet requires its own input, leading to duplication of effort, synchronization issues, and errors.
+
+## Introduction
+
+- To create a unified platform that simplifies publishing academic content online in different formats.
+- Easy to track the research projects and to maintain.
+- Increase the online presence of a research group or CDT.
+
+## Architecture
+
+![](iai_hub_files/architecture.png){.absolute top=100 left=100}
+
+## Django Application
+
+![](iai_hub_files/django_app.png){.absolute top=100 left=100}
+
+## Quarto Application
+
+![](iai_hub_files/iai_quarto.png){.absolute top=100 left=100}
