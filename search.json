@@ -170,70 +170,46 @@
     ]
   },
   {
-    "objectID": "use_cases.html",
-    "href": "use_cases.html",
+    "objectID": "IAIhub.html",
+    "href": "IAIhub.html",
     "title": "IAI-Hub",
     "section": "",
-    "text": "Academic research can be disseminated through traditionally published papers and books.\nModern dissemination methods include blogs, videos, software, notebooks, slide decks, tutorials, arXiv, Github repositories, Slack workspaces, and social media platforms.\nThere is no easy solution to author and manage this variety of artefacts coherently.\nEach outlet requires its own input, leading to duplication of effort, synchronization issues, and errors.",
-    "crumbs": [
-      "Home",
-      "IAI Hub"
-    ]
+    "text": "Academic research can be disseminated through traditionally published papers and books.\nModern dissemination methods include blogs, videos, software, notebooks, slide decks, tutorials, arXiv, Github repositories, Slack workspaces, and social media platforms.\nThere is no easy solution to author and manage this variety of artefacts coherently.\nEach outlet requires its own input, leading to duplication of effort, synchronization issues, and errors."
   },
   {
-    "objectID": "use_cases.html#introduction",
-    "href": "use_cases.html#introduction",
+    "objectID": "IAIhub.html#introduction",
+    "href": "IAIhub.html#introduction",
     "title": "IAI-Hub",
     "section": "",
-    "text": "Academic research can be disseminated through traditionally published papers and books.\nModern dissemination methods include blogs, videos, software, notebooks, slide decks, tutorials, arXiv, Github repositories, Slack workspaces, and social media platforms.\nThere is no easy solution to author and manage this variety of artefacts coherently.\nEach outlet requires its own input, leading to duplication of effort, synchronization issues, and errors.",
-    "crumbs": [
-      "Home",
-      "IAI Hub"
-    ]
+    "text": "Academic research can be disseminated through traditionally published papers and books.\nModern dissemination methods include blogs, videos, software, notebooks, slide decks, tutorials, arXiv, Github repositories, Slack workspaces, and social media platforms.\nThere is no easy solution to author and manage this variety of artefacts coherently.\nEach outlet requires its own input, leading to duplication of effort, synchronization issues, and errors."
   },
   {
-    "objectID": "use_cases.html#introduction-1",
-    "href": "use_cases.html#introduction-1",
+    "objectID": "IAIhub.html#introduction-1",
+    "href": "IAIhub.html#introduction-1",
     "title": "IAI-Hub",
     "section": "Introduction",
-    "text": "Introduction\n\nTo create a unified platform that simplifies publishing academic content online in different formats.\nEasy to track the research projects and to maintain.\nIncrease the online presence of a research group or CDT.",
-    "crumbs": [
-      "Home",
-      "IAI Hub"
-    ]
+    "text": "Introduction\n\nTo create a unified platform that simplifies publishing academic content online in different formats.\nEasy to track the research projects and to maintain.\nIncrease the online presence of a research group or CDT."
   },
   {
-    "objectID": "use_cases.html#architecture",
-    "href": "use_cases.html#architecture",
+    "objectID": "IAIhub.html#architecture",
+    "href": "IAIhub.html#architecture",
     "title": "IAI-Hub",
     "section": "Architecture",
-    "text": "Architecture",
-    "crumbs": [
-      "Home",
-      "IAI Hub"
-    ]
+    "text": "Architecture"
   },
   {
-    "objectID": "use_cases.html#django-application",
-    "href": "use_cases.html#django-application",
+    "objectID": "IAIhub.html#django-application",
+    "href": "IAIhub.html#django-application",
     "title": "IAI-Hub",
     "section": "Django Application",
-    "text": "Django Application",
-    "crumbs": [
-      "Home",
-      "IAI Hub"
-    ]
+    "text": "Django Application"
   },
   {
-    "objectID": "use_cases.html#quarto-application",
-    "href": "use_cases.html#quarto-application",
+    "objectID": "IAIhub.html#quarto-application",
+    "href": "IAIhub.html#quarto-application",
     "title": "IAI-Hub",
     "section": "Quarto Application",
-    "text": "Quarto Application",
-    "crumbs": [
-      "Home",
-      "IAI Hub"
-    ]
+    "text": "Quarto Application"
   },
   {
     "objectID": "slides-iai-hub.html#introduction",
