@@ -13,7 +13,7 @@ website:
         text: Home
       - href: introduction.qmd
         text: Why and How?
-      - href: use_cases.qmd
+      - href: IAIhub.qmd
         text: 'IAI Hub'
       - href: jekyll.qmd
         text: 'Jekyll'
