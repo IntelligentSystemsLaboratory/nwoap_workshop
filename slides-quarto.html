@@ -31,6 +31,7 @@
     }
   </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="assets/quarto/style.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -347,7 +348,6 @@ Miquel Perello Nieto <a href="https://orcid.org/0000-0001-8925-424X" class="quar
 </div>
 
 </section>
-<section>
 <section id="gentle-reminder-of-the-publishing-workflow" class="title-slide slide level1 center">
 <h1>Gentle reminder of the publishing workflow</h1>
 <div class="cell" data-reveal="true" data-layout-align="default">
@@ -377,8 +377,9 @@ flowchart LR
 </div>
 </div>
 </section>
-<section id="publishing-paradigms" class="slide level2">
-<h2>Publishing paradigms</h2>
+
+<section id="publishing-paradigms" class="title-slide slide level1 center">
+<h1>Publishing paradigms</h1>
 <p>The creation of research or academic material usually involves the production of slides, documents, posters and other output formats from the same material. There are different paradigms to create publishing material:</p>
 <ul>
 <li><strong>Single-In-Single-Out tools</strong>: Specialise in generating one type of output.
@@ -389,72 +390,9 @@ flowchart LR
 <li><strong>Multi-In-Multi-Out tools</strong>: Can generate multiple types of publication formats by composing input artefacts from different locations.</li>
 </ul>
 </section>
-<section id="single-in-single-out" class="slide level2">
-<h2>Single-In-Single-Out</h2>
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">%%{ init : { "theme" : "neutral", "flowchart" : { "curve" : "stepBefore" }}}%%
 
-flowchart LR
-  
-    S1("External sources\nVarious modifications"):::empty -.-&gt; I1
-    S1 -.-&gt; I2
-    S1 -.-&gt; I3
-    S1 -.-&gt; I4
-    I1("Text + Figures + \n Code + ... v.1"):::input --&gt; P1{{"Formatting tool 1"}}
-    I2("Text + Figures + \n Code + ... v.2"):::input --&gt; P2{{"Formatting tool 2"}}
-    I3("Text + Figures + \n Code + ... v.3"):::input --&gt; P3{{"Formatting tool 3"}}
-    I4("Text + Figures + \n Code + ... v.4"):::input --&gt; P4{{"Formatting tool 4"}}
-    P1 --&gt; O1["Published \n Paper \n (PDF)"]
-    P2 --&gt; O2["Presentation \n Slides \n (PPTX/PDF)"]
-    P3 --&gt; O3["Poster \n (PPTX/PDF)"]
-    P4 --&gt; O4["Computational \n Notebook \n (Colab)"]
-    style O1 fill:#fca
-    style O2 fill:#bff
-    style O3 fill:#f99
-    style O4 fill:#bfb
-    classDef input fill:#ffa;
-    classDef empty fill:#aaa,stroke:#333,stroke-dasharray: 5 5;
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</section>
-<section id="quarto-as-a-single-in-multi-out" class="slide level2">
-<h2>Quarto as a Single-In-Multi-Out</h2>
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">%%{ init : { "theme" : "neutral", "flowchart" : { "curve" : "stepBefore" }}}%%
-
-flowchart LR
-    I1("Text + Figures + \n Code + ..."):::input --- dummy2{{"Formatting tool"}}
-    dummy2 --&gt; O1["Published \n Paper \n (PDF)"]
-    dummy2 --&gt; O2["Presentation \n Slides \n (PPTX/PDF)"]
-    dummy2 --&gt; O3["Poster \n (PPTX/PDF)"]
-    dummy2 --&gt; O4["Computational \n Notebook \n (Colab)"]
-    classDef input fill:#ffa;
-    style O1 fill:#fca
-    style O2 fill:#bff
-    style O3 fill:#f99
-    style O4 fill:#bfb
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</section></section>
-<section>
-<section id="quarto-is-a-multi-out-formatting-tool" class="title-slide slide level1 center">
-<h1>Quarto is a multi-out formatting tool</h1>
+<section id="quarto-is-a-formatting-tool" class="title-slide slide level1 center">
+<h1>Quarto is a formatting tool</h1>
 <div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -481,8 +419,37 @@ flowchart LR
 </div>
 </div>
 </section>
-<section id="installation-and-usage" class="slide level2">
-<h2>Installation and usage</h2>
+
+<section id="quarto-as-a-single-in-multi-out" class="title-slide slide level1 center">
+<h1>Quarto as a Single-In-Multi-Out</h1>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{ init : { "theme" : "neutral", "flowchart" : { "curve" : "stepBefore" }}}%%
+
+flowchart LR
+    I1("(3)\nText + Figures + \n Code + ..."):::input --- dummy2{{"(4) Quarto\nFormatting tool"}}
+    dummy2 --&gt; O1["(5a) Published \n Paper \n (PDF)"]
+    dummy2 --&gt; O2["(5b) Presentation \n Slides \n (PPTX/PDF)"]
+    dummy2 --&gt; O3["(5c) Poster \n (PPTX/PDF)"]
+    dummy2 --&gt; O4["(5d) Computational \n Notebook \n (Colab)"]
+    classDef input fill:#ffa;
+    style O1 fill:#fca
+    style O2 fill:#bff
+    style O3 fill:#f99
+    style O4 fill:#bfb
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="installation-and-usage" class="title-slide slide level1 center">
+<h1>Installation and usage</h1>
 <ul>
 <li>Get started documentation: <a href="https://quarto.org/docs/get-started/">quarto.org/docs/get-started/</a></li>
 <li>Open-source repository in GitHub: <a href="https://github.com/quarto-dev/quarto-cli">Quarto-cli</a></li>
@@ -493,8 +460,8 @@ flowchart LR
 <li>Build project with <code>quarto render</code></li>
 <li>Preview with <code>quarto preview</code> (it autobuilds and updates when changes in the source files are detected).</li>
 </ul>
-</section></section>
-<section>
+</section>
+
 <section id="authoring-for-quarto" class="title-slide slide level1 center">
 <h1>Authoring for Quarto</h1>
 <div class="cell" data-reveal="true" data-layout-align="default">
@@ -522,8 +489,10 @@ flowchart LR
 </div>
 </div>
 </section>
-<section id="authoring-with-formatting" class="slide level2">
-<h2>Authoring with formatting</h2>
+
+<section>
+<section id="authoring-with-formatting" class="title-slide slide level1 center">
+<h1>Authoring with formatting</h1>
 <div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -548,7 +517,9 @@ flowchart LR
 </div>
 </div>
 </div>
-<h3 id="integrated-development-environments">Integrated Development Environments</h3>
+</section>
+<section id="integrated-development-environments" class="slide level2">
+<h2>Integrated Development Environments</h2>
 </section></section>
 <section id="then-what-is-quarto" class="title-slide slide level1 center">
 <h1>Then, what is Quarto?</h1>
