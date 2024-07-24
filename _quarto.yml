@@ -7,17 +7,18 @@ website:
   repo-url: https://github.com/IntelligentSystemsLaboratory/nwoap_workshop
   repo-branch: main
   repo-actions: [edit, issue]
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: introduction.qmd
-        text: Why and How?
-      - href: use_cases.qmd
-        text: 'IAI Hub'
-      - href: jekyll.qmd
-        text: 'Jekyll'
-      - about.qmd
+  #  navbar:
+  #    left:
+  #      - href: index.qmd
+  #        text: Home
+  #      - href: introduction.qmd
+  #        text: Why and How?
+  #      - href: use_cases.qmd
+  #        text: 'IAI Hub'
+  #      - href: jekyll.qmd
+  #        text: 'Jekyll'
+  #      - quarto.qmd
+  #      - about.qmd
   sidebar:
     style: "docked"
     logo: "./images/nwoap_book_world_library_thumbnail.jpg"
@@ -39,6 +40,7 @@ website:
         text: 'IAI Hub'
       - href: jekyll.qmd
         text: 'Jekyll'
+      - quarto.qmd
       - about.qmd
 
 
@@ -47,6 +49,8 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    mermaid:
+      theme: neutral
 
 # Additional extensions for Sphinx
 sphinx:
