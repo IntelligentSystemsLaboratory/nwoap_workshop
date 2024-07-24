@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.5.55">
 
   <meta name="author" content="Miquel Perello Nieto">
-  <title>New Ways of Academic Publishing Workshop – Why and How to publish in the 21st century?</title>
+  <title>New Ways of Academic Publishing Workshop – Quarto</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -329,8 +329,8 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Why and How to publish in the 21st century?</h1>
-  <p class="subtitle"><a href="slides-intro-why-how.html" target="_blank"></a></p>
+  <h1 class="title">Quarto</h1>
+  <p class="subtitle"><a href="slides-quarto.html" target="_blank"></a></p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -348,100 +348,103 @@ Miquel Perello Nieto <a href="https://orcid.org/0000-0001-8925-424X" class="quar
 
 </section>
 <section>
-<section id="why-new-ways-of-publishing" class="title-slide slide level1 center">
-<h1>Why new ways of publishing?</h1>
-
+<section id="gentle-reminder-of-the-publishing-workflow" class="title-slide slide level1 center">
+<h1>Gentle reminder of the publishing workflow</h1>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">---
+Publishing workflow
+---
+%%{ init : { "theme" : "neutral", "flowchart" : { "curve" : "stepBefore" }}}%%
+flowchart LR
+  
+    E1("(1)\nExternal resources"):::external -.-&gt; A1
+    A1{{"(2)\nAuthoring tool"}} --&gt; I1("(3)\nText + Figures +\nCode + Tables + ..."):::input
+    I1 --&gt; P1{{"(4)\nFormatting tool"}}
+    P1 --&gt; O1["(5)\nFormatted\nOutput"]:::output
+    O1 -.-&gt; D1{{"(6)\nDelivery system"}}:::delivery
+    classDef external fill:#eee,stroke:#666,stroke-width:2px,stroke-dasharray: 5 5;
+    classDef input fill:#ffa;
+    classDef output fill:#faa;
+    classDef delivery stroke:#666,stroke-width:2px,stroke-dasharray: 5 5;
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
-<section id="lots-of-specialised-tools" class="slide level2">
-<h2>Lots of specialised tools</h2>
+<section id="publishing-paradigms" class="slide level2">
+<h2>Publishing paradigms</h2>
+<p>The creation of research or academic material usually involves the production of slides, documents, posters and other output formats from the same material. There are different paradigms to create publishing material:</p>
 <ul>
-<li><strong>Authoring file formats</strong>: Microsoft Word documents, OpenDocument format (ODF), LaTeX, Markdown, slides, posters, videos, …</li>
-<li><strong>Authoring tools</strong>: Overleaf, Microsoft Office, and other text editors.</li>
-<li><strong>Storage</strong>: Overleaf, Dropbox, Microsoft One Drive, Google Drive, Mega, …</li>
-<li><strong>Publication systems</strong>: Microsoft Word, pdfLaTeX, XeLaTeX, RStudio, …</li>
-<li>Each with <strong>one output</strong> format in mind (e.g., device, size, color, …)</li>
+<li><strong>Single-In-Single-Out tools</strong>: Specialise in generating one type of output.
+<ul>
+<li>E.g. text documents with <a href="https://www.microsoft.com/en-gb/microsoft-365/word">Microsoft Word</a>, <a href="https://www.libreoffice.org/discover/writer/">Libre Office Writer</a>, <a href="https://www.latex-project.org/">LaTeX</a>; slide decks with <a href="https://www.microsoft.com/en-gb/microsoft-365/powerpoint">Microsoft PowerPoint</a>, <a href="https://www.libreoffice.org/discover/impress/">LibreOffice Impress</a>, <a href="https://ctan.org/pkg/beamer">LaTeX Beamer</a>, <a href="https://revealjs.com/">Reveal.js</a>, or <a href="https://workspace.google.com/intl/en_uk/products/slides/">Google Slides</a>; and posters with <a href="https://www.microsoft.com/en-gb/microsoft-365/publisher">Microsoft Publisher</a>, Google Slides, LaTeX, etc.</li>
+</ul></li>
+<li><strong>Single-In-Multi-Out tools</strong>: Can generate multiple types of publication formats from a joint set of input artefacts.</li>
+<li><strong>Multi-In-Multi-Out tools</strong>: Can generate multiple types of publication formats by composing input artefacts from different locations.</li>
 </ul>
 </section>
-<section id="common-publication-workflow" class="slide level2">
-<h2>Common publication workflow</h2>
-<p>Workflow to create one type of publication</p>
+<section id="single-in-single-out" class="slide level2">
+<h2>Single-In-Single-Out</h2>
 <div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart LR
-  
-    I1("Source code") &amp; I3("Analysis") --&gt; M1["Storage 1"]
-    M1 --&gt; I3
-    I3 --&gt; M2
-    I3 --&gt; I2
-    I4["Other sources"] --&gt; I2
-    I2("Figures") --&gt; M2["Storage 2"]
-    M1 -.-&gt; MS["Common storage 1"]
-    M2 -.-&gt; MS
-    MS --&gt; A1["Authoring tool"]
-    A1 --&gt; MS
-    MS --&gt; P1["Publication system"]
-    P1 --&gt; O1["Output 1"]
-    style MS fill:#fca
-    style O1 fill:#faa
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<div class="fragment">
-<p>Workflow to adapt and produce other types of publications</p>
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  
-    MS["Common storage 1"] --&gt; M2["Common storage 2"]
-    MS --&gt; I2("Figures")
-    I2 --&gt; M2
-    M2 --&gt; A1["Authoring tool"]
-    A1 --&gt; M2
-    M2 --&gt; P1["Publication system 2"]
-    P1 --&gt; O1["Output 2"]
-    style MS fill:#fca
-    style O1 fill:#faa
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="duplication-and-scatter-of-files" class="slide level2">
-<h2>Duplication and scatter of files</h2>
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">%%{ init : { "flowchart" : { "curve" : "stepBefore" }}}%%
+<pre class="mermaid mermaid-js">%%{ init : { "theme" : "neutral", "flowchart" : { "curve" : "stepBefore" }}}%%
 
 flowchart LR
   
-    dummy1[ ]:::empty -.-&gt; I1
-    dummy1 -.-&gt; I2
-    dummy1 -.-&gt; I3
-    dummy1 -.-&gt; I4
-    I1("Text + Figures + \n Code + ..."):::input --&gt; O1["Published \n Paper \n (PDF)"]
-    I2("Text + Figures + \n Code + ..."):::input --&gt; O2["Presentation \n Slides \n (PPTX/PDF)"]
-    I3("Text + Figures + \n Code + ..."):::input --&gt; O3["Poster \n (PPTX/PDF)"]
-    I4("Text + Figures + \n Code + ..."):::input --&gt; O4["Computational \n Notebook \n (Colab)"]
+    S1("External sources\nVarious modifications"):::empty -.-&gt; I1
+    S1 -.-&gt; I2
+    S1 -.-&gt; I3
+    S1 -.-&gt; I4
+    I1("Text + Figures + \n Code + ... v.1"):::input --&gt; P1{{"Formatting tool 1"}}
+    I2("Text + Figures + \n Code + ... v.2"):::input --&gt; P2{{"Formatting tool 2"}}
+    I3("Text + Figures + \n Code + ... v.3"):::input --&gt; P3{{"Formatting tool 3"}}
+    I4("Text + Figures + \n Code + ... v.4"):::input --&gt; P4{{"Formatting tool 4"}}
+    P1 --&gt; O1["Published \n Paper \n (PDF)"]
+    P2 --&gt; O2["Presentation \n Slides \n (PPTX/PDF)"]
+    P3 --&gt; O3["Poster \n (PPTX/PDF)"]
+    P4 --&gt; O4["Computational \n Notebook \n (Colab)"]
     style O1 fill:#fca
-    style O2 fill:#ffb
+    style O2 fill:#bff
     style O3 fill:#f99
     style O4 fill:#bfb
-    classDef empty width:0px,height:0px,fill:#000;
+    classDef input fill:#ffa;
+    classDef empty fill:#aaa,stroke:#333,stroke-dasharray: 5 5;
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="quarto-as-a-single-in-multi-out" class="slide level2">
+<h2>Quarto as a Single-In-Multi-Out</h2>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{ init : { "theme" : "neutral", "flowchart" : { "curve" : "stepBefore" }}}%%
+
+flowchart LR
+    I1("Text + Figures + \n Code + ..."):::input --- dummy2{{"Formatting tool"}}
+    dummy2 --&gt; O1["Published \n Paper \n (PDF)"]
+    dummy2 --&gt; O2["Presentation \n Slides \n (PPTX/PDF)"]
+    dummy2 --&gt; O3["Poster \n (PPTX/PDF)"]
+    dummy2 --&gt; O4["Computational \n Notebook \n (Colab)"]
+    classDef input fill:#ffa;
+    style O1 fill:#fca
+    style O2 fill:#bff
+    style O3 fill:#f99
+    style O4 fill:#bfb
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -450,31 +453,27 @@ flowchart LR
 </div>
 </section></section>
 <section>
-<section id="what-are-possible-solutions" class="title-slide slide level1 center">
-<h1>What are possible solutions?</h1>
-
-</section>
-<section id="a-new-publication-paradigm" class="slide level2">
-<h2>A new publication paradigm</h2>
-<p>Version controlled and in a single location</p>
+<section id="quarto-is-a-multi-out-formatting-tool" class="title-slide slide level1 center">
+<h1>Quarto is a multi-out formatting tool</h1>
 <div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<pre class="mermaid mermaid-js">%%{ init : { "flowchart" : { "curve" : "stepBefore" }}}%%
+<pre class="mermaid mermaid-js">%%{ init : { "theme" : "neutral", "flowchart" : { "curve" : "stepBefore" }}}%%
 
 flowchart LR
-    I1("Text + Figures + \n Code + ..."):::input --- dummy2( ):::empty
-    dummy2 --&gt; O1["Published \n Paper \n (PDF)"]
-    dummy2 --&gt; O2["Presentation \n Slides \n (PPTX/PDF)"]
-    dummy2 --&gt; O3["Poster \n (PPTX/PDF)"]
-    dummy2 --&gt; O4["Computational \n Notebook \n (Colab)"]
-    style O1 fill:#fca
-    style O2 fill:#ffb
-    style O3 fill:#f99
-    style O4 fill:#bfb
-    classDef empty width:0px,height:0px,fill:#000;
+  
+    E1("External resources"):::external -.-&gt; A1
+    A1{{"Authoring tool"}} --&gt; I1("Text + Figures +\nCode + Tables + ..."):::input
+    subgraph "Quarto, pdflatex, xelatex, pandoc, ..." 
+      direction LR
+      I1 --&gt; P1{{"Formatting tool"}}
+      P1 --&gt; O1["Formatted\nOutput"]:::output
+    end
+    classDef external fill:#eee;
+    classDef input fill:#ffa;
+    classDef output fill:#faa;
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -482,92 +481,87 @@ flowchart LR
 </div>
 </div>
 </section>
-<section id="existing-technologies" class="slide level2">
-<h2>Existing technologies</h2>
+<section id="installation-and-usage" class="slide level2">
+<h2>Installation and usage</h2>
 <ul>
-<li><strong>Authoring tools</strong>: Visual Studio + Quarto, Jupyter Lab + Jupyter Book, Posit Workbench, …</li>
-<li><strong>Standard authoring formats</strong>: LaTeX, Markdown, MyST Markdown, reStructuredText, …</li>
-<li><strong>Storage solutions</strong>: GitHub, BitBucket,</li>
-<li><strong>Publication systems</strong>: Jupyter Book, Quarto, Bookdown, D2L book, Sphinx, R Markdown</li>
-<li><strong>Online collaboration</strong>: team collaboration networks, project management tools, online meeting tools,</li>
+<li>Get started documentation: <a href="https://quarto.org/docs/get-started/">quarto.org/docs/get-started/</a></li>
+<li>Open-source repository in GitHub: <a href="https://github.com/quarto-dev/quarto-cli">Quarto-cli</a></li>
+<li>Create a project with <code>quarto create project</code>
+<ul>
+<li>Type: default, website, blog, manuscript, book, confluence</li>
+</ul></li>
+<li>Build project with <code>quarto render</code></li>
+<li>Preview with <code>quarto preview</code> (it autobuilds and updates when changes in the source files are detected).</li>
 </ul>
 </section></section>
 <section>
-<section id="what-next" class="title-slide slide level1 center">
-<h1>What next?</h1>
-
-</section>
-<section id="we-are-not-there-yet" class="slide level2">
-<h2>We are not there yet</h2>
-<ul>
-<li>Current multipurpose publishing systems are under development</li>
-<li>Using them may be more difficult than more established methods</li>
-<li>Lack of stability and missing functionalities</li>
-<li>Lack of standards</li>
-</ul>
-</section>
-<section id="new-paradigms" class="slide level2">
-<h2>New paradigms</h2>
-<ul>
-<li>Storage in one or multiple locations by types of files</li>
-<li>A composition toolkit to mix</li>
-</ul>
+<section id="authoring-for-quarto" class="title-slide slide level1 center">
+<h1>Authoring for Quarto</h1>
 <div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<pre class="mermaid mermaid-js">%%{ init : { "flowchart" : { "curve" : "stepBefore" }}}%%
-
+<pre class="mermaid mermaid-js">%%{ init : { "theme" : "neutral", "flowchart" : { "curve" : "stepBefore" }}}%%
 flowchart LR
-    I1("&lt;center&gt;Text&lt;/center&gt;"):::input --- dummy1( ):::empty
-    I2("Figures"):::input --- dummy1
-    I3(Code):::input --- dummy1
-    I4(...):::input --- dummy1
-    dummy1 --&gt; C:::foo
-    C{{"Composition"}} --- dummy2( ):::empty
-    dummy2 --&gt; O1["Published \n Paper \n (PDF)"]
-    style C fill:#f9f
-    dummy2 --&gt; O2["Presentation \n Slides \n (PPTX/PDF)"]
-    dummy2 --&gt; O3["Poster \n (PPTX/PDF)"]
-    dummy2 --&gt; O4["Computational \n Notebook \n (Colab)"]
-    style O1 fill:#fca
-    style O2 fill:#ffb
-    style O3 fill:#f99
-    style O4 fill:#bfb
-    classDef empty width:0px,height:0px,fill:#000;
+  
+    E1("External resources"):::external -.-&gt; A1
+    subgraph "Vim, NeoVim, Notepad" 
+      direction LR
+      A1{{"Authoring tool"}} --&gt; I1("Text + Code +\nTables + ..."):::input
+    end
+    I1 --&gt; P1{{"Formatting tool"}}
+    P1 --&gt; O1["Formatted\nOutput"]:::output
+    classDef external fill:#eee;
+    classDef input fill:#ffa;
+    classDef output fill:#faa;
 </pre>
 </div>
 <p></p></figure><p></p>
 </div>
 </div>
 </div>
+</section>
+<section id="authoring-with-formatting" class="slide level2">
+<h2>Authoring with formatting</h2>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{ init : { "theme" : "neutral", "flowchart" : { "curve" : "stepBefore" }}}%%
+flowchart LR
+  
+    E1("External resources"):::external -.-&gt; A1
+    subgraph "IDE + Quarto, HackMD, Notion, Typst, Overleaf..." 
+      direction LR
+      A1{{"Authoring tool"}} --&gt; I1("Text + Figures +\nCode + Tables + ..."):::input
+      I1 --&gt; P1{{"Formatting tool"}}
+      P1 --&gt; O1["Formatted\nOutput"]:::output
+    end
+    classDef external fill:#eee;
+    classDef input fill:#ffa;
+    classDef output fill:#faa;
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<h3 id="integrated-development-environments">Integrated Development Environments</h3>
 </section></section>
-<section id="in-this-workshop" class="title-slide slide level1 smaller center">
-<h1>In this workshop</h1>
+<section id="then-what-is-quarto" class="title-slide slide level1 center">
+<h1>Then, what is Quarto?</h1>
 <ul>
-<li>14:00 – 14:30 Introduction
-<ul>
-<li>MPN Why and How to publish in the 21st Century</li>
-<li>DDSN Technologies and use cases</li>
-</ul></li>
-<li>14:30 – 15:00 Use cases
-<ul>
-<li>PF Reveal.js examples</li>
-<li>DDSN IAI Hub</li>
-<li>MPN Quarto website with MOOC + video + Shiny</li>
-</ul></li>
-<li>15:00 – 15:30 Break<br>
-</li>
-<li>15:30 – 16:00 Technologies
-<ul>
-<li>RDN Quarto</li>
-<li>Grant Obsidian</li>
-<li>DDSN Jekyll integration with GitHub + Bristol AI</li>
-</ul></li>
-<li>16:00 – 16:30 Design Hackathon<br>
-</li>
-<li>16:30 – 16:40 Closing session</li>
+<li><a href="https://quarto.org">Quarto</a>:</li>
+<li><code>Quarto</code> supports dynamic content with Python, R, Julia and Observable</li>
+<li>programming languages.</li>
+<li><code>Quarto</code> uses pandoc to convert the input artefacts to its output.</li>
+<li><code>Quarto</code> supports plain text markdown, Jupyter notebooks and an augmented</li>
+<li>markdown,</li>
+<li>Integration with Posit Connect (former RMarkdown), Atlassian Confluence, Visual Studio,</li>
+<li>Built with <code>quarto render</code></li>
+<li>Has a preview mode <code>quarto preview</code> which autobuilds and updates when changes in the source files are detected.</li>
 </ul>
 
 <div class="quarto-auto-generated-content">

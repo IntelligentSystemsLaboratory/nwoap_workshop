@@ -1,35 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/introduction.html</loc>
-    <lastmod>2024-07-04T15:15:15.040Z</lastmod>
-  </url>
-  <url>
-    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/slides-intro-why-how.html</loc>
-    <lastmod>2024-07-04T15:15:15.040Z</lastmod>
-  </url>
-  <url>
-    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/about.html</loc>
-    <lastmod>2024-07-04T15:15:15.004Z</lastmod>
-  </url>
-  <url>
-    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/IAIhub.html</loc>
-    <lastmod>2024-07-04T15:15:15.004Z</lastmod>
-  </url>
-  <url>
-    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/slides-iai-hub.html</loc>
-    <lastmod>2024-07-04T15:15:15.004Z</lastmod>
-  </url>
-  <url>
-    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/index.html</loc>
-    <lastmod>2024-07-04T15:15:15.040Z</lastmod>
+    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/jekyll.html</loc>
+    <lastmod>2024-07-24T07:43:32.217Z</lastmod>
   </url>
   <url>
     <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/slides-Jekyll.html</loc>
-    <lastmod>2024-07-04T15:15:15.040Z</lastmod>
+    <lastmod>2024-07-24T07:43:32.217Z</lastmod>
   </url>
   <url>
-    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/jekyll.html</loc>
-    <lastmod>2024-07-04T15:15:15.040Z</lastmod>
+    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/about.html</loc>
+    <lastmod>2024-07-24T07:43:32.213Z</lastmod>
+  </url>
+  <url>
+    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/quarto.html</loc>
+    <lastmod>2024-07-24T07:43:32.217Z</lastmod>
+  </url>
+  <url>
+    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/slides-quarto.html</loc>
+    <lastmod>2024-07-24T07:43:32.217Z</lastmod>
+  </url>
+  <url>
+    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/slides-iai-hub.html</loc>
+    <lastmod>2024-07-24T07:43:32.209Z</lastmod>
+  </url>
+  <url>
+    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/IAIhub.html</loc>
+    <lastmod>2024-07-24T07:43:32.209Z</lastmod>
+  </url>
+  <url>
+    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/slides-intro-why-how.html</loc>
+    <lastmod>2024-07-24T07:43:32.217Z</lastmod>
+  </url>
+  <url>
+    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/introduction.html</loc>
+    <lastmod>2024-07-24T07:43:32.217Z</lastmod>
+  </url>
+  <url>
+    <loc>https://intelligentsystemslaboratory.github.io/nwoap_workshop/index.html</loc>
+    <lastmod>2024-07-24T07:43:32.217Z</lastmod>
   </url>
 </urlset>
