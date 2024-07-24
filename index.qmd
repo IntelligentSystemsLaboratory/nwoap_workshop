@@ -69,7 +69,9 @@ You will have the opportunity to share your own ideas in groups, which will lead
     - MPN Setting the stage
     - DDSN Setting the stage
 - 14:30 – 15:00 Use cases 
-    - PF Reveal.js examples
+    - PF Reveal.js examples 
+       - Jekyll example: [source](https://github.com/flach/slides/tree/master/2024_sks) | [rendered](https://flach.github.io/slides/2024_sks/)
+       - Obsdian Advanced Slides example: [source](https://github.com/flach/slides/blob/master/Obsidian/2023_xai.md) | [rendered](https://flach.github.io/slides/Obsidian/export/2023_xai/#/)
     - DDSN IAI Hub
     - MPN Quarto website with MOOC + video + Shiny
 - 15:00 – 15:30 Break  
